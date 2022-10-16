@@ -1,6 +1,6 @@
-# Pronunciation Download
+# Pronunciation Downloader
 Download and play all pronunciations of an English word, showing phonetics.
-This script crowls [www.oxfordlearnersdictionaries.com](www.oxfordlearnersdictionaries.com) website.
+This script crowls [www.oxfordlearnersdictionaries.com](https://www.oxfordlearnersdictionaries.com) website.
 
 ## Usage
 Run python script in this way:
