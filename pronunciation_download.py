@@ -13,10 +13,11 @@ parser.set_defaults(web=False)
 args = parser.parse_args()
 
 # set some headers
+agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
 headers = requests.utils.default_headers()
-headers.update({'User-Agent': 'My User Agent 1.0'})
+headers.update({'User-Agent': agent})
 opener = urllib.request.build_opener()
-opener.addheaders = [('User-agent', 'Mozilla/5.0')]
+opener.addheaders = [('User-agent', agent)]
 urllib.request.install_opener(opener)
 
 
